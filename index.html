@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENETIX</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/simple-adaptive-slider.css">
+</head>
+    <body>
+        <!-- Разметка слайдера -->
+        <div class="slider">
+          <div class="slider__wrapper">
+            <div class="slider__items">
+              <div class="slider__item">
+                <div class="slider__item_inner">
+                  <div class="slider__item_logo">
+                      <img src="img/logo.png" alt="Логотип">
+                      <p>GENETIX</p>
+                  </div>
+                     <div id="info_block">
+                        <p> ОБУЧАЮЩАЯ СИСТЕМА<br>
+                             ПО ГЕНЕТИКЕ 
+                        </p>
+                     </div>
+                     <div class="registr_block">
+                        <a href="registration.php">РЕГИСТРАЦИЯ</a>
+                        <a href="authorization.php">ВОЙТИ</a>
+                     </div>                
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider__item_inner_left_left">
+                    <div id="info_block_2">
+                        <p> GENETIX — ЭТО ПЛАТФОРМА,<br>
+                            ГДЕ ВЫПУСНИКИ СТАРШИХ<br>
+                            КЛАССОВ МОГУТ ПОВЫСИТЬ<br>
+                            УРОВЕНЬ ЗНАНИЙ ПО ГЕНЕТИКЕ<br>
+                            И ПОДГОТОВИТЬСЯ<br>
+                            К ПОСТУПЛЕНИЮ В ВУЗЫ. 
+                        </p>
+                     </div>
+                     <div id="info_block_3">
+                        <p> CИСТЕМА ПРЕДЛАГАЕТ ИЗУЧИТЬ КУРС ШКОЛЬНОЙ <br>
+                             ПРОГРАММЫ В УДОБНОМ ФОРМАТЕ: С ТЕОРИЕЙ,<br>
+                            ТЕСТИРОВАНИЕМ И ПРАКТИКОЙ. 
+                        </p>
+                     </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider__item_inner_left">
+                  <div class="info_list">
+
+                        <p id="first" onclick="first()">ЧТО НЕОБХОДИМО ДЛЯ РЕГИСТРАЦИИ НА GENETIX? <span class="Rectang"><img src="img/Rectanglebottom18.png" alt="указатель вверх"></span></p>
+                        <p id="first_info"; style="display:none" onclick="first_info()">ЧТО НЕОБХОДИМО ДЛЯ РЕГИСТРАЦИИ НА GENETIX? <span class="Rectang"><img src="img/Rectangletop19.png" alt="указатель вверх"></span></p>
+                        <div id="second_hide" style="display:none">
+                            ДЛЯ РЕГИСТРАЦИИ НУЖНО ВВЕСТИ СВОЕ ИМЯ, ПОЧТУ И ПАРОЛЬ.
+                        </div>
+                   </div>
+                   <div class="info_list">
+                        <p id="first2" onclick="first2()">КАК ПОСТРОЕН ПРОЦЕСС ОБУЧЕНИЯ? <span class="Rectang"><img src="img/Rectanglebottom18.png" alt="указатель вверх"></span></p>
+                        <p id="first_info2"; style="display:none" onclick="first_info2()">КАК ПОСТРОЕН ПРОЦЕСС ОБУЧЕНИЯ? <span class="Rectang"><img src="img/Rectangletop19.png" alt="указатель вверх"></span></p>
+                        <div id="second_hide2" style="display:none">
+                            ПОСЛЕ РЕГИСТРАЦИИ В СИСТЕМЕ ПРЕДЛАГАЕТСЯ НАБОР ТЕМ НА ВЫБОР.<br> 
+                            КАЖДАЯ ТЕМА ЯВЛЯЕТСЯ ТЕОРЕТИЧЕСКИМ МАТЕРИАЛОМ, ТЕСТИРОВАНИЕ<br> 
+                            И ПРАКТИЧЕСКИЕ ЗАДАНИЯ В КОНЦЕ.
+                         </div>
+                        </div>
+                    <div class="info_list">
+                        <p id="first3" onclick="first3()">МОГУ ЛИ Я ПОВТОРНО ПРОХОДИТЬ ТЕСТЫ? <span class="Rectang"><img src="img/Rectanglebottom18.png" alt="указатель вверх"></span></p>
+                        <p id="first_info3"; style="display:none" onclick="first_info3()">МОГУ ЛИ Я ПОВТОРНО ПРОХОДИТЬ ТЕСТЫ? <span class="Rectang"><img src="img/Rectangletop19.png" alt="указатель вверх"></span></p>
+                        <div id="second_hide3" style="display:none">
+                            КОНЕЧНО, ДЛЯ ЛУЧШЕГО УСВОЕНИЯ МАТЕРИАЛА МОЖНО<br>
+                            ПРОХОДИТЬ ПОВТОРНО ТЕСТЫ НЕОГРАНИЧЕННОЕ КОЛИЧЕСТВО РАЗ.
+                        </div>
+                    </div>
+                    <div class="info_list">
+                        <p id="first4" onclick="first4()">КАКИЕ ТЕМЫ ПО ГЕНЕТИКЕ ПРЕДСТАВЛЕНЫ НА САЙТЕ? <span class="Rectang"><img src="img/Rectanglebottom18.png" alt="указатель вверх"></span></p>
+                        <p id="first_info4"; style="display:none" onclick="first_info4()">КАКИЕ ТЕМЫ ПО ГЕНЕТИКЕ ПРЕДСТАВЛЕНЫ НА САЙТЕ? <span class="Rectang"><img src="img/Rectangletop19.png" alt="указатель вверх"></span></p>
+                        <div id="second_hide4" style="display:none">
+                            НА САЙТЕ ПРЕДСТАВЛЕНЫ БОЛЬШИНСТВО ТЕМ ПО ГЕНЕТИКЕ ЗА СТАРШИЕ КЛАССЫ.
+                        </div>
+                    </div>
+                    
+
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a><!--стрелки перехода-->
+          <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a><!--стрелки перехода-->
+        </div>
+
+    <script defer src="js/simple-adaptive-slider.js"></script>
+    <script defer src="js/slider.js"></script>
+    <script defer src="js/list.js"></script>
+</body>
+</html>
